@@ -39,3 +39,10 @@ h1 {
 a.active {
   border-bottom: 1px solid black;
 }
+
+/* images */
+
+.gallery img {
+  width: 50em;
+  height: 531px;
+}
