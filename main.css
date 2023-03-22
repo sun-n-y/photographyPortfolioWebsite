@@ -13,7 +13,7 @@ h1 {
 }
 
 .navbar {
-  margin: 20px 40px;
+  margin: 30px 40px 0 40px;
 }
 
 .top {
@@ -42,7 +42,25 @@ a.active {
 
 /* images */
 
+.gallery div {
+  width: 49.75%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 16px;
+}
+
 .gallery img {
-  width: 50em;
   height: 531px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gallery h2 {
+  font-weight: 300;
+  text-align: left;
+  margin: 8px 0 8px 0;
+}
+
+.gallery {
+  padding: 20px;
 }
