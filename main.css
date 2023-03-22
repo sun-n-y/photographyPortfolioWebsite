@@ -3,3 +3,39 @@
 body {
   font-family: "Caveat", cursive;
 }
+
+/* header and navbar */
+
+h1 {
+  display: inline-block;
+  font-weight: 400;
+  margin: 0;
+}
+
+.navbar {
+  margin: 20px 40px;
+}
+
+.top {
+  display: inline-block;
+}
+
+.top ul {
+  padding: 0;
+  margin-left: 30px;
+}
+
+.top li {
+  display: inline-block;
+}
+
+.top a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin: 0 8px;
+}
+
+a.active {
+  border-bottom: 1px solid black;
+}
