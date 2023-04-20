@@ -106,3 +106,35 @@ footer {
   text-decoration: none;
   color: black;
 }
+
+@media screen and (max-width: 830px) {
+  .gallery {
+    padding: 0;
+  }
+  footer {
+    margin: 0;
+    min-width: 400px;
+    margin: 0 auto;
+  }
+  .gallery div {
+    width: 100%;
+  }
+  .line1 h3 {
+    font-size: 20px;
+  }
+
+  .line2 h3 {
+    font-size: 20px;
+  }
+
+  .line3 p {
+    font-size: 20px;
+  }
+  .navbar {
+    margin: 0;
+    padding: 10px 0 0 20px;
+  }
+  .top ul {
+    margin-left: 0;
+  }
+}
